@@ -1,0 +1,28 @@
+{
+  "name": "com.raananw.imageResizer",
+  "version": "0.1.2",
+  "description": "Resize photos",
+  "dependencies": {
+        "cordova-plugin-file": "~5.0.0"
+  },
+  "cordova": {
+    "id": "com.raananw.imageResizer",
+    "plugins": {
+            "cordova-plugin-file": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaananW/PhoneGap-Image-Resizer.git"
+  },
+  "keywords": [
+    "cordova",    
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Raanan Weber",
+  "license": "MIT"
+}
